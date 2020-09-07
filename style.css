@@ -1,0 +1,27 @@
+*{
+/*property allows us to include the padding and border 
+in an element's total width and height.*/
+    box-sizing: border-box;
+    
+} 
+
+body{
+    background: aqua url('./background.jpg') no-repeat center center/cover;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    flex-direction: column;
+}
+
+.app-container{
+    display: flex;
+    background-color: orange;
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    
+}
